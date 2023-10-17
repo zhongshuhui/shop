@@ -9,6 +9,16 @@
         "prod": "npm run production",
         "production": "mix --production"
     },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    },
     "devDependencies": {
         "axios": "^0.21",
         "laravel-mix": "^6.0.6",
