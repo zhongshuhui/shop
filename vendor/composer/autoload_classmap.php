@@ -6,6 +6,9 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Admin\\Controllers\\AuthController' => $baseDir . '/app/Admin/Controllers/AuthController.php',
+    'App\\Admin\\Controllers\\HomeController' => $baseDir . '/app/Admin/Controllers/HomeController.php',
+    'App\\Admin\\Controllers\\UsersController' => $baseDir . '/app/Admin/Controllers/UsersController.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\Auth\\ConfirmPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ConfirmPasswordController.php',
@@ -28,6 +31,8 @@ return array(
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
     'App\\Http\\Requests\\Request' => $baseDir . '/app/Http/Requests/Request.php',
     'App\\Http\\Requests\\UserAddressRequest' => $baseDir . '/app/Http/Requests/UserAddressRequest.php',
+    'App\\Models\\Product' => $baseDir . '/app/Models/Product.php',
+    'App\\Models\\ProductSku' => $baseDir . '/app/Models/ProductSku.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Models\\UserAddress' => $baseDir . '/app/Models/UserAddress.php',
     'App\\Policies\\UserAddressPolicy' => $baseDir . '/app/Policies/UserAddressPolicy.php',
@@ -149,6 +154,8 @@ return array(
     'Cron\\HoursField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/HoursField.php',
     'Cron\\MinutesField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/MinutesField.php',
     'Cron\\MonthField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
+    'Database\\Factories\\ProductFactory' => $baseDir . '/database/factories/ProductFactory.php',
+    'Database\\Factories\\ProductSkuFactory' => $baseDir . '/database/factories/ProductSkuFactory.php',
     'Database\\Factories\\UserAddressFactory' => $baseDir . '/database/factories/UserAddressFactory.php',
     'Database\\Factories\\UserFactory' => $baseDir . '/database/factories/UserFactory.php',
     'Database\\Seeders\\DatabaseSeeder' => $baseDir . '/database/seeders/DatabaseSeeder.php',
