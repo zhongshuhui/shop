@@ -104,6 +104,7 @@ class ComposerStaticInitc61ff82cbf0142a401a48a8161e1595a
         ),
         'O' => 
         array (
+            'Overtrue\\LaravelLang\\' => 21,
             'Opis\\Closure\\' => 13,
         ),
         'N' => 
@@ -126,6 +127,7 @@ class ComposerStaticInitc61ff82cbf0142a401a48a8161e1595a
             'Laravel\\SerializableClosure\\' => 28,
             'Laravel\\Sanctum\\' => 16,
             'Laravel\\Sail\\' => 13,
+            'LaravelLang\\Lang\\' => 17,
         ),
         'I' => 
         array (
@@ -353,6 +355,10 @@ class ComposerStaticInitc61ff82cbf0142a401a48a8161e1595a
         array (
             0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
         ),
+        'Overtrue\\LaravelLang\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/overtrue/laravel-lang/src',
+        ),
         'Opis\\Closure\\' => 
         array (
             0 => __DIR__ . '/..' . '/opis/closure/src',
@@ -404,6 +410,10 @@ class ComposerStaticInitc61ff82cbf0142a401a48a8161e1595a
         'Laravel\\Sail\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/sail/src',
+        ),
+        'LaravelLang\\Lang\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laravel-lang/lang/src',
         ),
         'Illuminate\\Support\\' => 
         array (
@@ -523,6 +533,7 @@ class ComposerStaticInitc61ff82cbf0142a401a48a8161e1595a
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\PagesController' => __DIR__ . '/../..' . '/app/Http/Controllers/PagesController.php',
+        'App\\Http\\Controllers\\UserAddressesController' => __DIR__ . '/../..' . '/app/Http/Controllers/UserAddressesController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
@@ -532,6 +543,8 @@ class ComposerStaticInitc61ff82cbf0142a401a48a8161e1595a
         'App\\Http\\Middleware\\TrustHosts' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustHosts.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Http\\Requests\\Request' => __DIR__ . '/../..' . '/app/Http/Requests/Request.php',
+        'App\\Http\\Requests\\UserAddressRequest' => __DIR__ . '/../..' . '/app/Http/Requests/UserAddressRequest.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Models\\UserAddress' => __DIR__ . '/../..' . '/app/Models/UserAddress.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
@@ -2701,6 +2714,18 @@ class ComposerStaticInitc61ff82cbf0142a401a48a8161e1595a
         'Illuminate\\View\\ViewName' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewName.php',
         'Illuminate\\View\\ViewServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
+        'LaravelLang\\Lang\\Plugins\\Breeze' => __DIR__ . '/..' . '/laravel-lang/lang/src/Plugins/Breeze.php',
+        'LaravelLang\\Lang\\Plugins\\Cashier' => __DIR__ . '/..' . '/laravel-lang/lang/src/Plugins/Cashier.php',
+        'LaravelLang\\Lang\\Plugins\\Fortify' => __DIR__ . '/..' . '/laravel-lang/lang/src/Plugins/Fortify.php',
+        'LaravelLang\\Lang\\Plugins\\Jetstream' => __DIR__ . '/..' . '/laravel-lang/lang/src/Plugins/Jetstream.php',
+        'LaravelLang\\Lang\\Plugins\\Laravel' => __DIR__ . '/..' . '/laravel-lang/lang/src/Plugins/Laravel.php',
+        'LaravelLang\\Lang\\Plugins\\Lumen' => __DIR__ . '/..' . '/laravel-lang/lang/src/Plugins/Lumen.php',
+        'LaravelLang\\Lang\\Plugins\\Nova' => __DIR__ . '/..' . '/laravel-lang/lang/src/Plugins/Nova.php',
+        'LaravelLang\\Lang\\Plugins\\SparkPaddle' => __DIR__ . '/..' . '/laravel-lang/lang/src/Plugins/SparkPaddle.php',
+        'LaravelLang\\Lang\\Plugins\\SparkStripe' => __DIR__ . '/..' . '/laravel-lang/lang/src/Plugins/SparkStripe.php',
+        'LaravelLang\\Lang\\Plugins\\Ui' => __DIR__ . '/..' . '/laravel-lang/lang/src/Plugins/Ui.php',
+        'LaravelLang\\Lang\\Provider' => __DIR__ . '/..' . '/laravel-lang/lang/src/Provider.php',
+        'LaravelLang\\Lang\\ServiceProvider' => __DIR__ . '/..' . '/laravel-lang/lang/src/ServiceProvider.php',
         'Laravel\\Sail\\Console\\InstallCommand' => __DIR__ . '/..' . '/laravel/sail/src/Console/InstallCommand.php',
         'Laravel\\Sail\\Console\\PublishCommand' => __DIR__ . '/..' . '/laravel/sail/src/Console/PublishCommand.php',
         'Laravel\\Sail\\SailServiceProvider' => __DIR__ . '/..' . '/laravel/sail/src/SailServiceProvider.php',
@@ -3414,6 +3439,9 @@ class ComposerStaticInitc61ff82cbf0142a401a48a8161e1595a
         'Opis\\Closure\\SecurityProvider' => __DIR__ . '/..' . '/opis/closure/src/SecurityProvider.php',
         'Opis\\Closure\\SelfReference' => __DIR__ . '/..' . '/opis/closure/src/SelfReference.php',
         'Opis\\Closure\\SerializableClosure' => __DIR__ . '/..' . '/opis/closure/src/SerializableClosure.php',
+        'Overtrue\\LaravelLang\\Commands\\Publish' => __DIR__ . '/..' . '/overtrue/laravel-lang/src/Commands/Publish.php',
+        'Overtrue\\LaravelLang\\FileLoader' => __DIR__ . '/..' . '/overtrue/laravel-lang/src/FileLoader.php',
+        'Overtrue\\LaravelLang\\TranslationServiceProvider' => __DIR__ . '/..' . '/overtrue/laravel-lang/src/TranslationServiceProvider.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\ActualValueIsNotAnObjectException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/ActualValueIsNotAnObjectException.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert.php',
