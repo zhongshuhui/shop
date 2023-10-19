@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\Admin\\Controllers\\AuthController' => $baseDir . '/app/Admin/Controllers/AuthController.php',
     'App\\Admin\\Controllers\\HomeController' => $baseDir . '/app/Admin/Controllers/HomeController.php',
+    'App\\Admin\\Controllers\\ProductsController' => $baseDir . '/app/Admin/Controllers/ProductsController.php',
     'App\\Admin\\Controllers\\UsersController' => $baseDir . '/app/Admin/Controllers/UsersController.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
@@ -2833,6 +2834,9 @@ return array(
     'Illuminate\\View\\ViewName' => $vendorDir . '/laravel/framework/src/Illuminate/View/ViewName.php',
     'Illuminate\\View\\ViewServiceProvider' => $vendorDir . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
     'JsonException' => $vendorDir . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
+    'Jxlwqq\\Quill\\Editor' => $vendorDir . '/jxlwqq/quill/src/Editor.php',
+    'Jxlwqq\\Quill\\Quill' => $vendorDir . '/jxlwqq/quill/src/Quill.php',
+    'Jxlwqq\\Quill\\QuillServiceProvider' => $vendorDir . '/jxlwqq/quill/src/QuillServiceProvider.php',
     'LaravelLang\\Lang\\Plugins\\Breeze' => $vendorDir . '/laravel-lang/lang/src/Plugins/Breeze.php',
     'LaravelLang\\Lang\\Plugins\\Cashier' => $vendorDir . '/laravel-lang/lang/src/Plugins/Cashier.php',
     'LaravelLang\\Lang\\Plugins\\Fortify' => $vendorDir . '/laravel-lang/lang/src/Plugins/Fortify.php',
