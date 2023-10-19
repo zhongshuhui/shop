@@ -8,6 +8,7 @@
         <div class="card-header">
           收货地址列表
           <a href="{{ route('user_addresses.create') }}" class="float-right">新增收货地址</a>
+
         </div>
         <div class="card-body">
           <table class="table table-bordered table-striped">
@@ -28,7 +29,7 @@
                 <td>{{ $address->zip }}</td>
                 <td>{{ $address->contact_phone }}</td>
                 <td>
-                  <button class="btn btn-primary">修改</button>
+                  <a href="{{ route('user_addresses.edit', ['user_address' => $address->id]) }}" class="btn btn-primary">修改</a>
                   <button class="btn btn-danger">删除</button>
                 </td>
               </tr>
